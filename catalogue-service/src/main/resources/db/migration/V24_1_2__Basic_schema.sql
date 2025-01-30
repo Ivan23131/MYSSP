@@ -1,0 +1,1 @@
+alter table t_events drop column c_amount_of_tickets;

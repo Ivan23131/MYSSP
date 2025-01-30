@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Красивая кнопка</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+    <style>
+        .custom-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .custom-button:hover {
+            background-color: #0056b3;
+        }
+
+        .custom-button:active {
+            background-color: #004080;
+        }
+    </style>
+</head>
+<body>
+<header th:insert="~{fragments/logout_fragments::header}"></header>
+<button class="custom-button" onclick="window.location.href='http://localhost:8082/client/events/list'">
+    Перейти к списку событий
+</button>
+
+</body>
+</html>

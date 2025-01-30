@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/SSP
+    username: postgres
+    password: 1
+  flyway:
+    schemas:
+      - public
+
+server:
+  port: 8082

@@ -15,7 +15,7 @@ public class RestClientTicketsRestClient {
             };cwcwec
 
     private final RestClient restClient;
-
+cwecwecw
     public List<Ticket> findTicketsByEventId(Integer eventId) {
         return this.restClient
                 .get()

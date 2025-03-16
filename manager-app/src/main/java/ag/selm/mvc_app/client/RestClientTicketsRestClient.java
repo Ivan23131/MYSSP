@@ -12,7 +12,7 @@ import java.util.List;
 public class RestClientTicketsRestClient {
     private static final ParameterizedTypeReference<List<Ticket>> PRODUCTS_TYPE_REFERENCE =
             new ParameterizedTypeReference<>() {
-            };
+            };cwcwec
 
     private final RestClient restClient;
 
